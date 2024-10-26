@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raportare Incident - BCSA</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-blue-900 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <img src="/home/asis/Downloads/AGENTIA_NATIONALA_DE_SECURITATE_CIBERNETICA-removebg-preview.png" alt="BCSA Logo" class="h-12 w-auto mr-4">
+                    <span class="text-2xl font-bold">BCSA</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="bcsa.html" class="hover:text-blue-300">Home</a>
+                    <a href="#services" class="hover:text-blue-300">Services</a>
+                    <a href="#about" class="hover:text-blue-300">About</a>
+                    <a href="#contact" class="hover:text-blue-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Incident Reporting Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-blue-800">Raportează un Incident Cibernetic</h2>
+            <div class="max-w-lg mx-auto bg-gray-50 p-8 rounded-lg shadow-lg">
+                <form action="mailto:ratonelulgri@proton.me" method="post" enctype="text/plain" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-gray-700 font-bold">Nume</label>
+                        <input type="text" id="name" name="name" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700 font-bold">Email</label>
+                        <input type="email" id="email" name="email" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label for="incident" class="block text-gray-700 font-bold">Descrierea Incidentului</label>
+                        <textarea id="incident" name="incident" rows="4" required class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-800 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700">
+                        Trimite Raportul
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <img src="/home/asis/Downloads/AGENTIA_NATIONALA_DE_SECURITATE_CIBERNETICA-removebg-preview.png" alt="BCSA Logo" class="h-16 w-auto mb-4">
+                    <p class="text-blue-200">Protejăm viitorul digital al Balcanilor.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Linkuri Rapide</h3>
+                    <ul class="space-y-2 text-blue-200">
+                        <li><a href="#home" class="hover:text-white">Home</a></li>
+                        <li><a href="#services" class="hover:text-white">Servicii</a></li>
+                        <li><a href="#about" class="hover:text-white">Despre Noi</a></li>
+                        <li><a href="#contact" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Servicii</h3>
+                    <ul class="space-y-2 text-blue-200">
+                        <li>Audituri de Securitate</li>
+                        <li>Testare Penetrare</li>
+                        <li>Training Securitate</li>
+                        <li>Răspuns la Incidente</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Informații de Contact</h3>
+                    <ul class="space-y-2 text-blue-200">
+                        <li><i class="fas fa-phone mr-2"></i> +123 456 7890</li>
+                        <li><i class="fas fa-envelope mr-2"></i> info@bcsa.com</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> Belgrad, Serbia</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-blue-800 mt-8 pt-8 text-center text-blue-200">
+                <p>&copy; 2024 BCSA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

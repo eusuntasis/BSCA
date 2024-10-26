@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCSA - Balkan Cyber Security Agency</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-blue-900 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <img src="/home/asis/Downloads/AGENTIA_NATIONALA_DE_SECURITATE_CIBERNETICA-removebg-preview.png" alt="BCSA Logo" class="h-12 w-auto mr-4">
+                    <span class="text-2xl font-bold">BCSA</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="bcsa.html" class="hover:text-blue-300">Home</a>
+                    <a href="#services" class="hover:text-blue-300">Services</a>
+                    <a href="#about" class="hover:text-blue-300">About</a>
+                    <a href="#contact" class="hover:text-blue-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-blue-800 text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-5xl font-bold mb-4">Balkan Cyber Security Agency</h1>
+            <p class="text-xl mb-8">Protecting the Digital Future of the Balkans</p>
+            <button class="bg-white text-blue-800 font-bold py-3 px-8 rounded-full hover:bg-blue-100">
+                Get Started
+            </button>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+                    <div class="text-4xl text-blue-800 mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Cyber Security Audits</h3>
+                    <p class="text-gray-600">Comprehensive security assessments and vulnerability testing for organizations.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+                    <div class="text-4xl text-blue-800 mb-4">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Secure Development</h3>
+                    <p class="text-gray-600">Implementation of secure coding practices and application security testing.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg shadow-md">
+                    <div class="text-4xl text-blue-800 mb-4">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Security Training</h3>
+                    <p class="text-gray-600">Expert-led cybersecurity training and awareness programs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <img src="/api/placeholder/600/400" alt="Cyber Security Team" class="rounded-lg shadow-lg">
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h2 class="text-3xl font-bold mb-6">About BCSA</h2>
+                    <p class="text-gray-600 mb-6">
+                        BCSA is the leading cyber security agency in the Balkan region, dedicated to protecting organizations 
+                        and infrastructure from evolving cyber threats. With our team of expert security professionals, 
+                        we provide cutting-edge solutions and consultancy services.
+                    </p>
+                    <ul class="text-gray-600 space-y-2">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>24/7 Security Monitoring</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Certified Security Experts</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Regional Industry Leader</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Advanced Threat Detection</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Contact Us</h2>
+            <div class="max-w-lg mx-auto">
+                <form class="space-y-6">
+                    <div>
+                        <label class="block text-gray-700 mb-2">Name</label>
+                        <input type="text" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2">Email</label>
+                        <input type="email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 mb-2">Message</label>
+                        <textarea class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500" rows="4"></textarea>
+                    </div>
+                    <button class="w-full bg-blue-800 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <img src="/home/asis/Downloads/AGENTIA_NATIONALA_DE_SECURITATE_CIBERNETICA-removebg-preview.png" alt="BCSA Logo" class="h-16 w-auto mb-4">
+                    <p class="text-blue-200">Protecting the digital assets of organizations across the Balkans.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-blue-200">
+                        <li><a href="bcsa.html" class="hover:text-white">Home</a></li>
+                        <li><a href="#services" class="hover:text-white">Services</a></li>
+                        <li><a href="#about" class="hover:text-white">About</a></li>
+                        <li><a href="#contact" class="hover:text-white">Contact</a></li>
+                        <li><a href="/home/asis/Documents/bcsc-site/index.html" class="hover:text-white">BCSC</a></li>
+                        <li><a href="/home/asis/Documents/bcsa-academy/dashboard.html" class="hover:text-white">eLearning Platform</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Services</h3>
+                    <ul class="space-y-2 text-blue-200">
+                        <li>Security Audits</li>
+                        <li>Penetration Testing</li>
+                        <li>Security Training</li>
+                        <li>Incident Response</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Info</h3>
+                    <ul class="space-y-2 text-blue-200">
+                        <li><i class="fas fa-phone mr-2"></i> +123 456 7890</li>
+                        <li><i class="fas fa-envelope mr-2"></i> info@bcsa.com</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> Belgrade, Serbia</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-blue-800 mt-8 pt-8 text-center text-blue-200">
+                <p>&copy; 2024 BCSA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
