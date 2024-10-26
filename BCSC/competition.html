@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competition - BCSC Championship</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+</head>
+<body class="min-h-screen bg-gray-900 text-white">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-8">
+                <div class="flex items-center space-x-3">
+                    <img src="/home/asis/Downloads/AGENTIA_NATIONALA_DE_SECURITATE_CIBERNETICA-removebg-preview.png" alt="BCSA Logo" class="h-12 w-auto">
+                    <div>
+                        <h1 class="text-2xl font-bold">BCSC</h1>
+                        <span class="text-xs text-gray-400">by BCSA</span>
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="index.html" class="hover:text-blue-400">Home</a>
+                    <a href="about.html" class="hover:text-blue-400">About</a>
+                    <a href="competition.html" class="text-blue-400">Competition</a>
+                    <a href="schedule.html" class="hover:text-blue-400">Schedule</a>
+                    <a href="prizes.html" class="hover:text-blue-400">Prizes</a>
+                </div>
+            </div>
+            <a href="reg.html" class="bg-blue-600 px-6 py-2 rounded-lg hover:bg-blue-700">
+                Register Now
+            </a>
+        </div>
+    </nav>
+
+    <!-- Competition Hero -->
+    <div class="bg-gradient-to-r from-gray-900 to-gray-800 py-20">
+        <div class="container mx-auto text-center px-4">
+            <h1 class="text-5xl font-bold mb-6">Competition Format</h1>
+            <p class="text-xl text-gray-300 max-w-3xl mx-auto">Test your skills against the best cybersecurity teams in the Balkans through multiple challenging rounds.</p>
+        </div>
+    </div>
+
+    <!-- Competition Stages -->
+    <div class="container mx-auto py-16 px-4">
+        <div class="max-w-4xl mx-auto space-y-12">
+            <div class="bg-gray-800 p-8 rounded-xl">
+                <h3 class="text-2xl font-semibold mb-4">Online Qualifiers</h3>
+                <p class="text-gray-300 mb-4">A 24-hour online qualification round where teams compete remotely to solve various challenges.</p>
+                <ul class="text-gray-400 space-y-2">
+                    <li>• Duration: 24 hours</li>
+                    <li>• Top 20 teams qualify for semifinals</li>
+                    <li>• Multiple challenge categories</li>
+                    <li>• Remote participation</li>
+                </ul>
+            </div>
+
+            <div class="bg-gray-800 p-8 rounded-xl">
+                <h3 class="text-2xl font-semibold mb-4">Semifinals</h3>
+                <p class="text-gray-300 mb-4">An intense 36-hour competition featuring advanced challenges and real-time attack/defense scenarios.</p>
+                <ul class="text-gray-400 space-y-2">
+                    <li>• Duration: 36 hours</li>
+                    <li>• Top 8 teams advance to finals</li>
+                    <li>• Advanced challenge categories</li>
+                    <li>• Hybrid format (online + onsite)</li>
+                </ul>
+            </div>
+
+            <div class="bg-gray-800 p-8 rounded-xl">
+                <h3 class="text-2xl font-semibold mb-4">Grand Finals</h3>
+                <p class="text-gray-300 mb-4">The ultimate 48-hour onsite competition to determine the Balkan cybersecurity champions.</p>
+                <ul class="text-gray-400 space-y-2">
+                    <li>• Duration: 48 hours</li>
+                    <li>• 8 finalist teams</li>
+                    <li>• Expert-level challenges</li>
+                    <li>• Live onsite event</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Challenge Categories -->
+    <div class="bg-gray-800 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Challenge Categories</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="bg-gray-700 p-6 rounded-xl">
+                    <i data-feather="code" class="w-12 h-12 text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Web Security</h3>
+                    <p class="text-gray-400">Application security, API vulnerabilities, and web exploitation challenges.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-xl">
+                    <i data-feather="cpu" class="w-12 h-12 text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Reverse Engineering</h3>
+                    <p class="text-gray-400">Binary analysis, malware investigation, and software exploitation.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-xl">
+                    <i data-feather="hard-drive" class="w-12 h-12 text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Forensics</h3>
+                    <p class="text-gray-400">Digital forensics, memory analysis, and network traffic investigation.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-xl">
+                    <i data-feather="wifi" class="w-12 h-12 text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Network Security</h3>
+                    <p class="text-gray-400">Network protocols, traffic analysis, and infrastructure security.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-xl">
+                    <i data-feather="lock" class="w-12 h-12 text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Cryptography</h3>
+                    <p class="text-gray-400">Encryption challenges, cipher analysis, and cryptographic attacks.</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-xl">
+                    <i data-feather="box" class="w-12 h-12 text-blue-400 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Miscellaneous</h3>
